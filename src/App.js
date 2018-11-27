@@ -1,26 +1,52 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+
+import Header from "./Components/Header";
+
+import Home from "./Pages/Home";
+import AboutUs from "./Pages/AboutUs";
+import Expertise from "./Pages/Expertise";
+import Clients from "./Pages/Clients";
+import Contact from "./Pages/Contact";
+
+import FullBlogPost from "./Components/FullBlogPost";
+
+import { BrowserRouter, Route } from "react-router-dom";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = { posts: [] };
+  }
+
+  componentDidMount() {
+    fetch(
+      "https://public-api.wordpress.com/rest/v1.1/sites/advocates-for-animals.com/posts/"
+    )
+      .then(resp => resp.json())
+      .then(data => this.setState({ posts: data.posts }));
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <div className="App">
+          <Header />
+          <main className="main-content">
+            <Route
+              exact
+              path="/"
+              render={() => (
+                <Home posts={this.state.posts} renderPost={this.renderPost} />
+              )}
+            />
+            <Route exact path="/about" component={AboutUs} />
+            <Route exact path="/expertise" component={Expertise} />
+            <Route exact path="/clients" component={Clients} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/blog/:id" component={FullBlogPost} />
+          </main>
+        </div>
+      </BrowserRouter>
     );
   }
 }

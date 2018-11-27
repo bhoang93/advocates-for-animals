@@ -1,0 +1,28 @@
+@import "./Abstracts/Variables.scss";
+@import "./Abstracts/Animations.scss";
+
+@import "./Shared.scss";
+
+@import "./Components/Header";
+@import "./Components/Navigation";
+@import "./Components/Quote";
+@import "./Components/Profile";
+@import "./Components/BlogPost";
+@import "./Components/FullBlogPost";
+
+@import "./Pages/Home";
+@import "./Pages/Clients";
+@import "./Pages/AboutUs";
+
+html {
+  background-color: $wht-color1;
+  color: $blk-color1;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,41 @@
+.home-container {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+
+  animation: fadeIn 2s ease;
+}
+
+.home-text {
+  color: $main-color1;
+  font-size: $fnt_big;
+  width: 30%;
+  text-align: left;
+  margin: 10rem;
+  text-shadow: 2px 3px 3px rgba($blk-color2, 0.3);
+  animation: bounceIn 2s ease;
+}
+
+.home-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background-color: rgba($wht-color3, 0.5);
+  width: 80%;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 3rem rgba($blk-color3, 0.4);
+  overflow: hidden;
+}
