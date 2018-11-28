@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const pages = [
   { label: "Home", link: "" },
+  { label: "News", link: "news" },
   { label: "About Us", link: "about" },
   { label: "Areas of Expertise", link: "expertise" },
   { label: "What Clients Say", link: "clients" },

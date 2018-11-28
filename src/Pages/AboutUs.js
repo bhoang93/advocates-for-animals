@@ -6,7 +6,7 @@ import Profile from "../Components/Profile";
 
 import davidthomas from "../Images/AboutUs/David_Thomas.jpg";
 import ediebowles from "../Images/AboutUs/Edie_Bowles.png";
-import chicken from "../Images/AboutUs/chicken.jpg";
+import aboutusimg from "../Images/Animals/animal1.jpg";
 
 const aboutUsProfile = [
   {
@@ -64,7 +64,11 @@ const AboutUs = () => {
     <div className="aboutus">
       <h2 className="sub-heading">About Us</h2>
       <div className="aboutus__content">
-        <img className="aboutus__content--image" src={chicken} alt="chicken" />
+        <img
+          className="aboutus__content--image"
+          src={aboutusimg}
+          alt="chicken"
+        />
         <span className="aboutus__content--block">
           <strong>Advocates for Animals</strong> is the first UK law firm
           dedicated to animal protection. Set up by{" "}

@@ -4,13 +4,16 @@
 @import "./Shared.scss";
 
 @import "./Components/Header";
+@import "./Components/Footer";
 @import "./Components/Navigation";
+@import "./Components/HomeNav";
 @import "./Components/Quote";
 @import "./Components/Profile";
 @import "./Components/BlogPost";
 @import "./Components/FullBlogPost";
 
 @import "./Pages/Home";
+@import "./Pages/News";
 @import "./Pages/Clients";
 @import "./Pages/AboutUs";
 
@@ -21,7 +24,9 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-body {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

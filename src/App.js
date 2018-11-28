@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 import Home from "./Pages/Home";
+import News from "./Pages/News";
 import AboutUs from "./Pages/AboutUs";
 import Expertise from "./Pages/Expertise";
 import Clients from "./Pages/Clients";
@@ -35,16 +37,20 @@ class App extends Component {
             <Route
               exact
               path="/"
-              render={() => (
-                <Home posts={this.state.posts} renderPost={this.renderPost} />
-              )}
+              render={() => <Home posts={this.state.posts} />}
+            />
+            <Route
+              exact
+              path="/news"
+              render={() => <News posts={this.state.posts} />}
             />
             <Route exact path="/about" component={AboutUs} />
             <Route exact path="/expertise" component={Expertise} />
             <Route exact path="/clients" component={Clients} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/blog/:id" component={FullBlogPost} />
+            <Route exact path="/news/:id" component={FullBlogPost} />
           </main>
+          <Footer />
         </div>
       </BrowserRouter>
     );

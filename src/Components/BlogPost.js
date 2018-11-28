@@ -2,7 +2,7 @@ import React from "react";
 
 import { NavLink } from "react-router-dom";
 
-const BlogPost = ({ post, renderPost }) => {
+const BlogPost = ({ post }) => {
   return (
     <div className="blog-post">
       <h3 className="blog-post__heading">{post.title}</h3>
@@ -13,7 +13,7 @@ const BlogPost = ({ post, renderPost }) => {
         className="blog-post__excerpt"
         dangerouslySetInnerHTML={{ __html: post.excerpt }}
       />
-      <NavLink className="blog-post__read-more" to={`/blog/${post.ID}`}>
+      <NavLink className="blog-post__read-more" to={`/news/${post.ID}`}>
         Read More
       </NavLink>
     </div>

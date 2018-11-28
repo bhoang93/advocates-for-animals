@@ -1,19 +1,11 @@
 .home-container {
-  overflow: hidden;
   position: relative;
-  height: 100vh;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
 
   animation: fadeIn 2s ease;
-}
-
-.home-text {
-  color: $main-color1;
-  font-size: $fnt_big;
-  width: 30%;
-  text-align: left;
-  margin: 10rem;
-  text-shadow: 2px 3px 3px rgba($blk-color2, 0.3);
-  animation: bounceIn 2s ease;
 }
 
 .home-bg-video {
@@ -27,15 +19,20 @@
   object-fit: cover;
 }
 
+.latest-news-heading {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
 .blog-container {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 80vh;
   background-color: rgba($wht-color3, 0.5);
-  width: 80%;
-  margin: 3rem auto;
+  flex: 0 0 50%;
+  padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 2rem 3rem rgba($blk-color3, 0.4);
+  box-shadow: 0 2rem 3rem rgba($blk-color3, 0.3);
   overflow: hidden;
+  margin-right: 2rem;
 }

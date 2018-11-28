@@ -11,15 +11,26 @@
   &__heading {
     font-size: $fnt-big;
     margin-bottom: 0;
+    color: $main-color3;
   }
 
   &__author {
+    margin-top: 2rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
   }
 
   &__content {
     font-size: $fnt-reg;
     margin-bottom: auto;
+  }
+
+  &__image {
+    height: 30rem;
+    float: left;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    animation: fadeIn 0.5s ease;
   }
 
   &__go-back {
@@ -32,6 +43,7 @@
     cursor: pointer;
     transition: all 0.2s ease;
     text-decoration: none;
+    border-bottom: 2px solid $snd-color2;
 
     &:hover {
       transform: translateY(-3px);

@@ -1,0 +1,16 @@
+.news-blog-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $snd-color2;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 3rem rgba($blk-color3, 0.3);
+  background-image: url("../Images/Animals/blog-bg.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  animation: fadeIn 0.5s ease;
+}

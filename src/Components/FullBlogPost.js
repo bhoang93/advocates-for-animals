@@ -24,7 +24,7 @@ class FullBlogPost extends React.Component {
         <h3 className="full-blog-post__heading">{post.title}</h3>
         {post.featured_image && (
           <img
-            className="full=blog-post__image"
+            className="full-blog-post__image"
             src={post.featured_image}
             alt={post.title}
           />
@@ -35,7 +35,7 @@ class FullBlogPost extends React.Component {
         />
         <p className="full-blog-post__author">{`Posted by ${post.author &&
           post.author.name} at ${post.date}`}</p>
-        <NavLink className="full-blog-post__go-back" to={"/"}>
+        <NavLink className="full-blog-post__go-back" to={"/news"}>
           Go Back
         </NavLink>
       </div>
