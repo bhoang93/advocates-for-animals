@@ -7,7 +7,7 @@
     width: 70%;
     font-size: $fnt-reg;
     animation: bounceIn 0.8s ease;
-    margin-bottom: 1rem;
+    padding: 3rem;
 
     &--block {
       display: block;
@@ -23,11 +23,12 @@
       float: left;
       margin-right: 2rem;
       margin-bottom: 2rem;
-      padding: 1rem;
       outline: 0.75rem solid $main-color5;
+      transition: all 0.2s ease;
+
+      &:hover {
+        padding: 0;
+      }
     }
   }
-}
-
-.profiles {
 }
