@@ -1,0 +1,71 @@
+.complaints {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  font-size: 1.4rem;
+  animation: bounceIn 1s ease;
+  display: flex;
+
+  &__1st {
+    flex: 0 0 30%;
+    margin-right: 3.5rem;
+  }
+
+  &__paragraph {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  &__image {
+    height: 60rem;
+    width: 100%;
+    margin-right: 3rem;
+
+    outline: 0.75rem solid $main-color5;
+  }
+
+  &__icon {
+    height: 2.5rem;
+    margin-right: 0.5rem;
+  }
+
+  &__contact {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: $snd-color1;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: $wht-color1;
+    margin-top: 3rem;
+
+    &--heading {
+      font-size: 2rem;
+      color: $wht-color1;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $main-color1;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $main-color3;
+    }
+  }
+
+  &__small-text {
+    font-size: $fnt-small;
+    font-style: italic;
+  }
+}

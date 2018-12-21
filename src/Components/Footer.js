@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import SocialMediaIcon from "../Components/SocialMediaIcon";
 
@@ -8,6 +9,17 @@ import instagram from "../Images/SocialMediaIcons/instagram.svg";
 const Footer = () => {
   return (
     <div className="footer">
+      <iframe
+        className="footer__sra"
+        frameborder="0"
+        scrolling="no"
+        allowTransparency="true"
+        src="https://cdn.yoshki.com/iframe/55845r.html"
+      />
+      <NavLink className="footer__complaints" exact to="/complaints">
+        Complaints Procedure
+      </NavLink>
+
       <div className="footer__social">
         <SocialMediaIcon
           link="https://twitter.com/Animallawyersuk"
@@ -20,15 +32,6 @@ const Footer = () => {
           alt="Instagram"
         />
       </div>
-      <p className="footer__legal">
-        Commodo velit constias. Qui nulla arbitror ea iudicem praetermissum ea
-        laboris nam se vidisse coniunctione se est ex nisi dolore minim, aliqua
-        ab in fugiat expetendis, aliquip in laborum, laboris velit quis an
-        velit, veniam si nam tamen nostrud. Incididunt irure expetendis. Commodo
-        voluptatibus sed fabulas aut commodo est singulis ita hic eu elit tamen
-        quis ne mandaremus do expetendis, aute eu excepteur id quem, quem ne nam
-        eram occaecat.
-      </p>
     </div>
   );
 };

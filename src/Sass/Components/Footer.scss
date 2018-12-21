@@ -3,24 +3,46 @@
   left: 0;
   bottom: 0;
   right: 0;
-  height: 15rem;
+  height: 20rem;
   background-color: $snd-color5;
   color: $wht-color1;
   padding: 1rem;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
   &__legal {
-    width: 70%;
+    width: 100%;
+    padding: 0 10rem;
+  }
+
+  &__sra {
+    padding-left: 10rem;
+    margin-right: -9rem;
+    margin-bottom: -5rem;
+  }
+
+  &__complaints {
+    text-decoration: none;
+    color: $wht-color1;
+    background-color: $snd-color2;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 0 3rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: $wht-color2;
+      color: $snd-color2;
+    }
   }
 
   &__social {
     &--icon {
-      height: 5rem;
+      height: 7.5rem;
       width: auto;
-      padding: 1rem;
+      padding: 1.5rem;
       margin: 0.5rem;
       background-color: $snd-color1;
       clip-path: circle();

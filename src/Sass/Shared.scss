@@ -2,7 +2,7 @@
   text-align: center;
   position: relative;
   min-height: 100vh;
-  padding-bottom: 15rem;
+  padding-bottom: 30rem;
 }
 
 .main-heading {
@@ -19,6 +19,13 @@
   margin-bottom: 2rem;
   font-weight: 800;
   animation: blurIn 0.5s ease;
+}
+
+.third-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  color: $main-color3;
 }
 
 .main-content {

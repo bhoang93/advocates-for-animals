@@ -9,6 +9,7 @@ import AboutUs from "./Pages/AboutUs";
 import Expertise from "./Pages/Expertise";
 import Clients from "./Pages/Clients";
 import Contact from "./Pages/Contact";
+import Complaints from "./Pages/Complaints";
 
 import FullBlogPost from "./Components/FullBlogPost";
 
@@ -49,6 +50,7 @@ class App extends Component {
             <Route exact path="/clients" component={Clients} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/news/:id" component={FullBlogPost} />
+            <Route exact path="/complaints" component={Complaints} />
           </main>
           <Footer />
         </div>
