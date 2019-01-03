@@ -6,6 +6,7 @@ import Profile from "../Components/Profile";
 
 import davidthomas from "../Images/AboutUs/David_Thomas.jpg";
 import ediebowles from "../Images/AboutUs/Edie_Bowles.png";
+import vanessa from "../Images/AboutUs/Vanessa_Johansson.jpeg";
 import aboutusimg from "../Images/Animals/animal1.jpg";
 
 const aboutUsProfile = [
@@ -56,6 +57,22 @@ const aboutUsProfile = [
       </>
     ),
     image: ediebowles
+  },
+  {
+    name: "Vanessa Johansson",
+    text: (
+      <>
+        <span className="profile__text--block">
+          Vanessa has dedicated her career to the non-profit and education
+          sectors. From management to hands-on help, Vanessa loves guiding
+          people and organisations towards success. In 2018, she co-founded the
+          Solberga Foundation, a philanthropic organisation focused on animal
+          and environmental justice. Enthusiastic and personable, she is a
+          tireless advocate for a more compassionate world.
+        </span>
+      </>
+    ),
+    image: vanessa
   }
 ];
 

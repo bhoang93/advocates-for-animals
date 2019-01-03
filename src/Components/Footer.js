@@ -15,6 +15,7 @@ const Footer = () => {
         scrolling="no"
         allowTransparency="true"
         src="https://cdn.yoshki.com/iframe/55845r.html"
+        style={{ height: "20rem" }}
       />
       <NavLink className="footer__complaints" exact to="/complaints">
         Complaints Procedure
