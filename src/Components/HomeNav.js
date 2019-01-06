@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import bg1 from "../Images/Animals/animal12.jpg";
-import bg2 from "../Images/Animals/animal4.jpg";
 import bg3 from "../Images/Animals/animal5.jpg";
 import bg4 from "../Images/Animals/animal13.jpg";
 import bg5 from "../Images/Animals/animal7.jpg";

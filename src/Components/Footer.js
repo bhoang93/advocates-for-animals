@@ -10,6 +10,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <iframe
+        title="SRA"
         className="footer__sra"
         frameborder="0"
         scrolling="no"
