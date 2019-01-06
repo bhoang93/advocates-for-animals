@@ -6,7 +6,11 @@ import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import News from "./Pages/News";
 import AboutUs from "./Pages/AboutUs";
+
 import Expertise from "./Pages/Expertise";
+import Freedom from "./Components/Freedom";
+import Judicial from "./Components/Judicial";
+
 import Clients from "./Pages/Clients";
 import Contact from "./Pages/Contact";
 import Complaints from "./Pages/Complaints";
@@ -47,6 +51,16 @@ class App extends Component {
             />
             <Route exact path="/about" component={AboutUs} />
             <Route exact path="/expertise" component={Expertise} />
+            <Route
+              exact
+              path="/expertise/freedom-of-information"
+              component={Freedom}
+            />
+            <Route
+              exact
+              path="/expertise/judicial-review"
+              component={Judicial}
+            />
             <Route exact path="/clients" component={Clients} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/news/:id" component={FullBlogPost} />
