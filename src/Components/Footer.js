@@ -33,6 +33,7 @@ const Footer = () => {
           alt="Instagram"
         />
       </div>
+      <div className="footer__name">Advocates for Animals Ltd</div>
     </div>
   );
 };

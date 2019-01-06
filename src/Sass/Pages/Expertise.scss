@@ -1,0 +1,27 @@
+.expertise {
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  animation: slideInRight 0.5s ease;
+
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__img {
+    outline: 0.75rem solid $main-color5;
+    margin: 1.5rem;
+
+    &--1 {
+      height: 25rem;
+      float: left;
+    }
+
+    &--2 {
+      height: 30rem;
+      float: right;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 .profile {
+  min-height: 35rem;
   width: 50%;
   background-image: linear-gradient(to right bottom, $snd-color1, $snd-color5);
   padding: 1rem 5rem;
@@ -31,13 +32,12 @@
   }
 
   &__image {
-    height: 30rem;
-    width: auto;
+    height: 20rem;
     clip-path: circle();
     float: left;
     filter: grayscale(1);
     transition: all 0.2s ease;
-    margin-right: 3rem;
+    margin-right: 2rem;
   }
 
   &:hover &__image {

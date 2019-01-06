@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 import Profile from "../Components/Profile";
 
 import davidthomas from "../Images/AboutUs/David_Thomas.jpg";
-import ediebowles from "../Images/AboutUs/Edie_Bowles.png";
+import ediebowles from "../Images/AboutUs/Edie_Bowles.JPG";
 import vanessa from "../Images/AboutUs/Vanessa_Johansson.jpeg";
 import aboutusimg from "../Images/Animals/animal1.jpg";
 
