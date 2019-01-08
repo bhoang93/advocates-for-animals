@@ -8,7 +8,7 @@ import instagram from "../Images/SocialMediaIcons/instagram.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <iframe
         title="SRA"
         className="footer__sra"
@@ -35,7 +35,7 @@ const Footer = () => {
         />
       </div>
       <div className="footer__name">Advocates for Animals Ltd</div>
-    </div>
+    </footer>
   );
 };
 

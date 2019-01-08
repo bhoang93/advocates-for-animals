@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import image2 from "../Images/Animals/animal16.jpg";
+import image2 from "../../Images/Animals/animal16.jpg";
 
 const Judicial = () => {
   return (

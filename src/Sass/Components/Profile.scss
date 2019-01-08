@@ -3,12 +3,12 @@
   width: 50%;
   background-image: linear-gradient(to right bottom, $snd-color1, $snd-color5);
   padding: 1rem 5rem;
-  margin: auto;
-  margin-bottom: 2rem;
+  margin: 2rem;
   border-radius: 0.4rem;
   display: flex;
   align-items: center;
   box-shadow: 0 1rem 1rem rgba($blk-color1, 0.4);
+  animation: bounceIn 1s ease;
 
   &__heading {
     font-size: $fnt_big;
@@ -35,12 +35,7 @@
     height: 20rem;
     clip-path: circle();
     float: left;
-    filter: grayscale(1);
     transition: all 0.2s ease;
     margin-right: 2rem;
-  }
-
-  &:hover &__image {
-    filter: grayscale(0);
   }
 }

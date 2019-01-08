@@ -8,8 +8,11 @@ import News from "./Pages/News";
 import AboutUs from "./Pages/AboutUs";
 
 import Expertise from "./Pages/Expertise";
-import Freedom from "./Components/Freedom";
-import Judicial from "./Components/Judicial";
+import Freedom from "./Components/Expertise/Freedom";
+import Judicial from "./Components/Expertise/Judicial";
+import LevelPlayingField from "./Components/Expertise/LevelPlayingField";
+import Undercover from "./Components/Expertise/Undercover";
+import AnimalProtectionLaw from "./Components/Expertise/AnimalProtectionLaw";
 
 import Clients from "./Pages/Clients";
 import Contact from "./Pages/Contact";
@@ -61,6 +64,22 @@ class App extends Component {
               path="/expertise/judicial-review"
               component={Judicial}
             />
+            <Route
+              exact
+              path="/expertise/achieving-a-level-playing-field"
+              component={LevelPlayingField}
+            />
+            <Route
+              exact
+              path="/expertise/undercover-investigations"
+              component={Undercover}
+            />
+            <Route
+              exact
+              path="/expertise/animal-protection-law"
+              component={AnimalProtectionLaw}
+            />
+
             <Route exact path="/clients" component={Clients} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/news/:id" component={FullBlogPost} />

@@ -1,33 +1,39 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import freedom from "../Images/Animals/freedom.jpg";
-import judicial from "../Images/Animals/judicial.jpg";
+const areas = [
+  { link: "/expertise/freedom-of-information", text: "Freedom of Information" },
+  { link: "/expertise/judicial-review", text: "Judicial Review" },
+  {
+    link: "/expertise/achieving-a-level-playing-field",
+    text: "Achieving A Level Playing Field"
+  },
+  {
+    link: "/expertise/undercover-investigations",
+    text: "Undercover investigations"
+  },
+  { link: "/expertise/animal-protection-law", text: "Animal Protection Law" }
+];
 
 const Expertise = () => {
   return (
     <div className="expertise">
       <h2 className="sub-heading">Areas of Expertise</h2>
       <div className="expertise__wrapper">
-        <NavLink
-          className="expertise__link"
-          exact
-          to="/expertise/freedom-of-information"
-        >
-          <div className="expertise__redirect expertise__redirect--freedom">
-            Freedom of information
-          </div>
-        </NavLink>
-
-        <NavLink
-          className="expertise__link"
-          exact
-          to="/expertise/judicial-review"
-        >
-          <div className="expertise__redirect expertise__redirect--judicial">
-            Judicial Review
-          </div>
-        </NavLink>
+        {areas.map((area, index) => {
+          return (
+            <NavLink
+              key={index}
+              className={`expertise__link`}
+              exact
+              to={area.link}
+            >
+              <div className="expertise__redirect">
+                <span>{area.text}</span>
+              </div>
+            </NavLink>
+          );
+        })}
       </div>
     </div>
   );

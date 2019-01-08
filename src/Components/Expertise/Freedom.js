@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import image1 from "../Images/Animals/animal3.jpg";
+import image1 from "../../Images/Animals/animal3.jpg";
 
 const Freedom = () => {
   return (
@@ -52,8 +52,14 @@ const Freedom = () => {
       </p>
 
       <p className="expertise__text">
-        The other main way of getting information is via undercover
-        investigations
+        The other main way of getting information is via{" "}
+        <NavLink
+          className="expertise__back"
+          exact
+          to="/expertise/undercover-investigations"
+        >
+          undercover investigations
+        </NavLink>
       </p>
 
       <NavLink className="expertise__back" exact to="/expertise">
