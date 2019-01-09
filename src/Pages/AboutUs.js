@@ -159,7 +159,6 @@ class AboutUs extends React.Component {
                   </figure>
                 );
               })}
-              }
             </div>
           </>
         )}

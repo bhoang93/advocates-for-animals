@@ -43,6 +43,14 @@
     font-size: 5rem;
     font-weight: 1000;
 
+    @media only screen and (max-width: $bp-med) {
+      height: 15rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 4rem;
+    }
+
     transition: all 0.2s ease;
 
     & span {

@@ -12,6 +12,10 @@
   justify-content: center;
   align-items: center;
 
+  @media only screen and (max-width: $bp-small) {
+    height: 40rem;
+  }
+
   &__legal {
     width: 100%;
     padding: 0 10rem;

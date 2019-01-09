@@ -10,6 +10,10 @@
   box-shadow: 0 1rem 1rem rgba($blk-color1, 0.4);
   animation: bounceIn 1s ease;
 
+  @media only screen and (max-width: $bp-big) {
+    width: 70%;
+  }
+
   &__heading {
     font-size: $fnt_big;
     color: $main-color1;

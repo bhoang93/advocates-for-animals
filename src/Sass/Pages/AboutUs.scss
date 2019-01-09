@@ -21,6 +21,10 @@
     font-size: $fnt-reg;
     padding: 3rem;
 
+    @media only screen and (max-width: $bp-big) {
+      width: 80%;
+    }
+
     &--block {
       display: block;
       margin-bottom: 2rem;
