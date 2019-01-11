@@ -26,6 +26,10 @@
 
     transition: all 0.2s ease;
 
+    @media only screen and (max-width: $bp-small) {
+      display: none;
+    }
+
     &:hover {
       transform: scale(1.1);
       box-shadow: 0 2rem 3rem rgba($blk-color2, 0.4);

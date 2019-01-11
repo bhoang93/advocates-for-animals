@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: center;
     height: 10rem;
-    width: 70vw;
+    width: 80vw;
     background-color: $snd-color1;
     margin: 1rem;
     color: $wht-color1;
@@ -45,6 +45,7 @@
 
     @media only screen and (max-width: $bp-med) {
       height: 15rem;
+      width: 90vw;
     }
 
     @media only screen and (max-width: $bp-small) {

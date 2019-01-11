@@ -1,6 +1,6 @@
 .news-blog-container {
   width: 80%;
-  margin: 0 auto;
+  margin: 1rem auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -13,4 +13,8 @@
   background-blend-mode: multiply;
 
   animation: fadeIn 0.5s ease;
+
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+  }
 }

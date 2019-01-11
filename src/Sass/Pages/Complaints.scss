@@ -6,9 +6,19 @@
   animation: bounceIn 1s ease;
   display: flex;
 
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
   &__1st {
     flex: 0 0 30%;
     margin-right: 3.5rem;
+
+    @media only screen and (max-width: $bp-med) {
+      margin-right: 1rem;
+    }
   }
 
   &__paragraph {
@@ -18,10 +28,13 @@
 
   &__image {
     height: 60rem;
-    width: 100%;
-    margin-right: 3rem;
+    width: auto;
 
     outline: 0.75rem solid $main-color5;
+
+    @media only screen and (max-width: $bp-med) {
+      height: 40rem;
+    }
   }
 
   &__icon {
@@ -31,13 +44,17 @@
 
   &__contact {
     text-align: center;
-    width: 50%;
+    width: 60%;
     margin: auto;
     background-color: $snd-color1;
     border-radius: 2rem;
     padding: 1rem 2rem;
     color: $wht-color1;
     margin-top: 3rem;
+
+    @media only screen and (max-width: $bp-med) {
+      width: 80%;
+    }
 
     &--heading {
       font-size: 2rem;

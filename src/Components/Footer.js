@@ -9,15 +9,15 @@ import instagram from "../Images/SocialMediaIcons/instagram.svg";
 const Footer = () => {
   return (
     <footer className="footer">
-      <iframe
-        title="SRA"
-        className="footer__sra"
-        frameborder="0"
-        scrolling="no"
-        allowTransparency="true"
-        src="https://cdn.yoshki.com/iframe/55845r.html"
-        style={{ height: "20rem" }}
-      />
+      <div className="footer__sra">
+        <iframe
+          title="SRA"
+          frameBorder="0"
+          scrolling="no"
+          src="https://cdn.yoshki.com/iframe/55845r.html"
+          style={{ height: "100%", width: "100%" }}
+        />
+      </div>
       <NavLink className="footer__complaints" exact to="/complaints">
         Complaints Procedure
       </NavLink>
