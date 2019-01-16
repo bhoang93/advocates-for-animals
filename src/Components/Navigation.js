@@ -11,7 +11,7 @@ const pages = [
 ];
 
 const linkStyle = {
-  borderBottom: "2px solid #987316"
+  borderBottom: "2px solid #028676"
 };
 
 const Navigation = () => {

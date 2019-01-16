@@ -65,7 +65,8 @@ const aboutUsProfile = [
           people and organisations towards success. In 2018, she co-founded the
           Solberga Foundation, a philanthropic organisation focused on animal
           and environmental justice. Enthusiastic and personable, she is a
-          tireless advocate for a more compassionate world.
+          tireless advocate for a more compassionate world. Vanessa joins the
+          team as an administrative manager.
         </span>
       </>
     ),

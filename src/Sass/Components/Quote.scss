@@ -1,46 +1,33 @@
 .quote {
   position: relative;
   height: 40rem;
-  width: 40rem;
-
+  width: 25vw;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: flex-start;
   padding: 3rem;
+  padding-top: 6rem;
   background-color: $snd-color3;
-  -webkit-clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 75%,
-    75% 75%,
-    45% 100%,
-    50% 75%,
-    0% 75%
-  );
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 75%,
-    75% 75%,
-    45% 100%,
-    50% 75%,
-    0% 75%
-  );
   margin: 1.5rem;
-  font-size: $fnt-reg;
+  font-size: 1.6rem;
   color: $wht-color1;
   animation: bounceIn 0.8s ease;
+
   &:before {
     content: "”";
     color: $main-color3;
     position: absolute;
-    top: -2rem;
-    right: 2rem;
-    font-size: 25rem;
+    top: -5rem;
+    right: 1rem;
+    font-size: 20rem;
   }
+
+  &__text {
+    padding: 0.5rem 2rem;
+  }
+
   &__attr {
-    color: $main-color2;
+    color: $main-color5;
   }
 }

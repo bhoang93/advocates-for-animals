@@ -1,5 +1,5 @@
 import React from "react";
-
+import ContactForm from "../Components/ContactForm";
 import email from "../Images/Contact/mail.svg";
 
 const Contact = () => {
@@ -12,6 +12,7 @@ const Contact = () => {
           <p className="contact__link--text">info@advocates-for-animals.com</p>
         </div>
       </a>
+      <ContactForm />
     </div>
   );
 };

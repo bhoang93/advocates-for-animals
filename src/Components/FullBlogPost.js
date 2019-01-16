@@ -33,8 +33,6 @@ class FullBlogPost extends React.Component {
           className="full-blog-post__content"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
-        <p className="full-blog-post__author">{`Posted by ${post.author &&
-          post.author.name} at ${post.date}`}</p>
         <NavLink className="full-blog-post__go-back" to={"/news"}>
           Go Back
         </NavLink>
