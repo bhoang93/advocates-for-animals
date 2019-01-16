@@ -3,6 +3,10 @@
   position: relative;
   min-height: 100vh;
   padding-bottom: 30rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding-bottom: 22rem;
+  }
 }
 
 .main-heading {

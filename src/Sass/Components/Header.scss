@@ -4,6 +4,10 @@
   color: $wht-color1;
   padding: 2rem;
   border-bottom: 0.4rem solid $main-color6;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 1.2rem;
+  }
 }
 
 .heading {

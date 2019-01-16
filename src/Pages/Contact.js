@@ -12,7 +12,6 @@ const Contact = () => {
           <p className="contact__link--text">info@advocates-for-animals.com</p>
         </div>
       </a>
-      <ContactForm />
     </div>
   );
 };

@@ -8,6 +8,10 @@
   position: relative;
   animation: fadeIn 0.5s ease;
 
+  @media only screen and (max-width: $bp-small) {
+    width: 80vw;
+  }
+
   &__heading {
     animation: fadeIn 2s ease;
     font-size: $fnt-big;
