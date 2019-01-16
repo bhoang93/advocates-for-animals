@@ -15,6 +15,10 @@
   word-spacing: 100vw;
   text-align: left;
   margin-bottom: 2rem;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-bottom: 1rem;
+  }
 }
 
 .sub-heading {
@@ -23,6 +27,10 @@
   margin-bottom: 2rem;
   font-weight: 800;
   animation: blurIn 0.5s ease;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-bottom: 1rem;
+  }
 }
 
 .third-heading {
@@ -30,6 +38,10 @@
   margin-bottom: 1.5rem;
   font-weight: 800;
   color: $main-color3;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-bottom: 0.75rem;
+  }
 }
 
 .main-content {
