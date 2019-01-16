@@ -1,4 +1,5 @@
 .contact {
+  animation: slideInLeft 1s ease;
   font-size: $fnt-reg;
   display: flex;
   flex-direction: column;
@@ -17,7 +18,6 @@
 
   &__block {
     display: flex;
-    animation: slideInLeft 1s ease;
     text-decoration: none;
 
     &--img {

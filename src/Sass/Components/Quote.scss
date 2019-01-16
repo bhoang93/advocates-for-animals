@@ -14,6 +14,10 @@
   color: $wht-color1;
   animation: bounceIn 0.8s ease;
 
+  @media only screen and (max-width: $bp-small) {
+    width: 35vw;
+  }
+
   &:before {
     content: "”";
     color: $main-color3;
