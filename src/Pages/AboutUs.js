@@ -66,7 +66,7 @@ const aboutUsProfile = [
           Solberga Foundation, a philanthropic organisation focused on animal
           and environmental justice. Enthusiastic and personable, she is a
           tireless advocate for a more compassionate world. Vanessa joins the
-          team as an administrative manager.
+          team as the administrative manager.
         </span>
       </>
     ),
@@ -107,7 +107,7 @@ class AboutUs extends React.Component {
                 dedicated to animal protection. Set up by{" "}
                 <strong>David Thomas</strong> and <strong>Edie Bowles</strong>,
                 two solicitors with vast combined experience in animal
-                protection law, the firm is supported by and works closely with
+                protection law, the firm is supported by and works closely with{" "}
                 <strong>the UK Centre of Animal Law (A-LAW):</strong> Edie is a
                 trustee and David a former trustee.
               </span>
