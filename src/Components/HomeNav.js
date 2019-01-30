@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import bg1 from "../Images/Animals/animal12.jpg";
+import bg2 from "../Images/Animals/freedom.jpg";
 import bg3 from "../Images/Animals/animal5.jpg";
 import bg4 from "../Images/Animals/animal13.jpg";
 import bg5 from "../Images/Animals/animal7.jpg";
@@ -12,7 +13,8 @@ const pages = [
   { label: "Areas of Expertise", link: "expertise", bg: bg4 },
   { label: "What Clients Say", link: "clients", bg: bg5 },
   { label: "Blog", link: "blog", bg: bg1 },
-  { label: "Contact Us", link: "contact", bg: bg6 }
+  { label: "Contact Us", link: "contact", bg: bg6 },
+  { label: "Donate", link: "donate", bg: bg2 }
 ];
 
 const HomeNav = () => {

@@ -16,6 +16,7 @@ import AnimalProtectionLaw from "./Components/Expertise/AnimalProtectionLaw";
 
 import Clients from "./Pages/Clients";
 import Contact from "./Pages/Contact";
+import Donate from "./Pages/Donate";
 import Complaints from "./Pages/Complaints";
 
 import FullBlogPost from "./Components/FullBlogPost";
@@ -54,6 +55,7 @@ class App extends Component {
             />
             <Route exact path="/about" component={AboutUs} />
             <Route exact path="/expertise" component={Expertise} />
+            <Route exact path="/donate" component={Donate} />
             <Route
               exact
               path="/expertise/freedom-of-information"
