@@ -11,7 +11,7 @@ const pages = [
   { label: "About Us", link: "about", bg: bg3 },
   { label: "Areas of Expertise", link: "expertise", bg: bg4 },
   { label: "What Clients Say", link: "clients", bg: bg5 },
-  { label: "News", link: "news", bg: bg1 },
+  { label: "Blog", link: "blog", bg: bg1 },
   { label: "Contact Us", link: "contact", bg: bg6 }
 ];
 

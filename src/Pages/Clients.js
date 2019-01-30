@@ -42,6 +42,11 @@ const clientQuotes = [
     quote:
       "The services set out by Advocates for Animals are absolutely invaluable to animal protection NGOs aiming to take the most direct route to creating sustained change for animals, to maximise impact, and to minimise risk. At Humane Society International I fully anticipate we would instruct the firm, particularly with regard to the complex legal landscape around trade as the U.K. departs the EU, an area in which David is extremely well versed. Having sought and used advice from the solicitors behind this firm before I can attest not only to their in-depth knowledge of the law as it relates to animal protection, but also to their understanding and accommodation of the varying strategies, positions and messaging held by their clients. This new law firm is a logical and much-needed step to increase the effectiveness and efficiency of the animal protection movement in the U.K.",
     attr: "- Humane Society International"
+  },
+  {
+    quote:
+      "Advocates for Animals provide a unique blend of legal expertise and passion for campaigning to make the world a better place for animals. This means they don’t discourage clients from taking risks if the benefits to animals could be great, but rather advise on ways to mitigate risks or even suggest better ideas based on their long history of work in this sector. They are always professional, responsive and committed to achieving the best possible outcome for animals while also protecting the charities and activists they represent. I can’t recommend them highly enough.",
+    attr: "Animal Equality"
   }
 ];
 
