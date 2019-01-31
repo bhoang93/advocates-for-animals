@@ -1,5 +1,18 @@
 .donate {
+  width: 70%;
+  margin: auto;
+  animation: slideInLeft 1s ease;
+
   &--text {
     font-size: 1.6rem;
+  }
+
+  &--button {
+    height: 10rem;
+    margin: 2rem;
+
+    @media only screen and (max-width: $bp-small) {
+      height: 7.5rem;
+    }
   }
 }

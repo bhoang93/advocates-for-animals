@@ -7,7 +7,7 @@ import BlogPost from "../Components/BlogPost";
 const News = ({ posts }) => {
   return (
     <div>
-      <h2 className="sub-heading">News</h2>
+      <h2 className="sub-heading">Blog</h2>
       <div className="news-blog-container">
         <Scrollbars style={{ height: 600 }}>
           {posts.map((post, index) => {
