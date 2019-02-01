@@ -13,8 +13,8 @@ const pages = [
   { label: "Areas of Expertise", link: "expertise", bg: bg4 },
   { label: "What Clients Say", link: "clients", bg: bg5 },
   { label: "Blog", link: "blog", bg: bg1 },
-  { label: "Contact Us", link: "contact", bg: bg6 },
-  { label: "Donate", link: "donate", bg: bg2 }
+  { label: "Donate", link: "donate", bg: bg2 },
+  { label: "Contact Us", link: "contact", bg: bg6 }
 ];
 
 const HomeNav = () => {

@@ -5,10 +5,14 @@ const Donate = () => {
     <div className="donate">
       <h2 className="sub-heading">Donate</h2>
       <p className="donate--text">
-        Advocates for Animals is dedicated to the work it does for its clients;
-        however, there is a great deal more legal work to be done beyond this.
-        All donations will be put towards Advocates for Animals taking this on.
+        In addition to helping animal protection organisations through use of
+        the law, Advocates for Animals would like the freedom to bring cases on
+        behalf of itself that we feel are essential to help animals. The
+        practice of law can be expensive. If you would like to ensure that AfA
+        can bring these cases, please donate.
       </p>
+      <p className="donate--text">Thank you.</p>
+
       <form
         action="https://www.paypal.com/cgi-bin/webscr"
         method="post"

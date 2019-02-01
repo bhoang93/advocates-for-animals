@@ -7,8 +7,8 @@ const pages = [
   { label: "Areas of Expertise", link: "expertise" },
   { label: "What Clients Say", link: "clients" },
   { label: "Blog", link: "blog" },
-  { label: "Contact Us", link: "contact" },
-  { label: "Donate", link: "donate" }
+  { label: "Donate", link: "donate" },
+  { label: "Contact Us", link: "contact" }
 ];
 
 const linkStyle = {
