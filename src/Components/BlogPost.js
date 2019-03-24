@@ -2,6 +2,12 @@ import React from "react";
 
 import { NavLink } from "react-router-dom";
 
+const decode = str => {
+  return str.replace(/&#(\d+);/g, function(match, dec) {
+    return String.fromCharCode(dec);
+  });
+};
+
 const BlogPost = ({ post }) => {
   const date = new Date(post.date)
     .toString()
@@ -11,7 +17,7 @@ const BlogPost = ({ post }) => {
 
   return (
     <div className="blog-post">
-      <h3 className="blog-post__heading">{post.title}</h3>
+      <h3 className="blog-post__heading">{decode(post.title)}</h3>
       <p className="blog-post__author">{`Posted on ${date}`}</p>
       <div
         className="blog-post__excerpt"

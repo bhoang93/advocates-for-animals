@@ -17,20 +17,15 @@ const Complaints = () => {
         <h2 className="sub-heading">Complaints Procedure</h2>
         <p className="complaints__paragraph">
           We want to give you the best possible service. However, if at any
-          point you become unhappy or concerned about the service we/I have
-          [change as appropriate] provided then you should inform us
-          immediately, so that we can do our best to resolve the problem.
+          point you become unhappy or concerned about the service we provided
+          then you should inform us immediately, so that we can do our best to
+          resolve the problem.
         </p>
         <p className="complaints__paragraph">
           In the first instance it may be helpful to contact the person who is
           working on your case to discuss your concerns and we will do our best
-          to resolve any issues at this stage [delete if not required]. If you
-          would like to make a formal complaint, then you can read our full
-          complaints procedure{" "}
-          <a className="complaints__link" href="#">
-            here
-          </a>
-          . Making a complaint will not affect how we handle your case.
+          to resolve any issues at this stage. Making a complaint will not
+          affect how we handle your case.
         </p>
         <p className="complaints__paragraph">
           The Solicitors Regulation Authority can help you if you are concerned

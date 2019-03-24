@@ -2,10 +2,16 @@ import React from "react";
 
 import { NavLink } from "react-router-dom";
 
+const decode = str => {
+  return str.replace(/&#(\d+);/g, function(match, dec) {
+    return String.fromCharCode(dec);
+  });
+};
+
 class FullBlogPost extends React.Component {
   constructor() {
     super();
-    this.state = { post: {} };
+    this.state = { post: { title: "" } };
   }
   componentDidMount() {
     fetch(
@@ -21,7 +27,7 @@ class FullBlogPost extends React.Component {
     const { post } = this.state;
     return (
       <div className="full-blog-post">
-        <h3 className="full-blog-post__heading">{post.title}</h3>
+        <h3 className="full-blog-post__heading">{decode(post.title)}</h3>
         {post.featured_image && (
           <img
             className="full-blog-post__image"
@@ -33,7 +39,7 @@ class FullBlogPost extends React.Component {
           className="full-blog-post__content"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
-        <NavLink className="full-blog-post__go-back" to={"/news"}>
+        <NavLink className="full-blog-post__go-back" to={"/blog"}>
           Go Back
         </NavLink>
       </div>
