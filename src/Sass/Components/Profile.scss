@@ -1,0 +1,51 @@
+.profile {
+  min-height: 35rem;
+  width: 50%;
+  background-image: linear-gradient(to right bottom, $snd-color1, $snd-color5);
+  padding: 1rem 5rem;
+  margin: 2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1rem 1rem rgba($blk-color1, 0.4);
+  animation: bounceIn 1s ease;
+
+  @media only screen and (max-width: $bp-big) {
+    width: 70%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+    flex-direction: column;
+    padding: 2rem 5rem;
+  }
+
+  &__heading {
+    font-size: $fnt_big;
+    color: $main-color3;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__text {
+    color: $wht-color1;
+    font-size: $fnt-reg;
+
+    &--block {
+      display: inline-block;
+      text-align: left;
+
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  &__image {
+    height: 20rem;
+    clip-path: circle();
+    float: left;
+    transition: all 0.2s ease;
+    margin-right: 2rem;
+  }
+}

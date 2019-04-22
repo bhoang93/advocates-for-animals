@@ -1,0 +1,27 @@
+.contact {
+  animation: slideInLeft 1s ease;
+  font-size: $fnt-reg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+
+  &__link {
+    text-decoration: none;
+    color: $blk-color2;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__block {
+    display: flex;
+    text-decoration: none;
+
+    &--img {
+      margin-right: 1rem;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import "./Abstracts/Variables.scss";
+@import "./Abstracts/Animations.scss";
+
+@import "./Shared.scss";
+
+@import "./Components/Header";
+@import "./Components/Footer";
+@import "./Components/Navigation";
+@import "./Components/HomeNav";
+@import "./Components/Quote";
+@import "./Components/Profile";
+@import "./Components/BlogPost";
+@import "./Components/FullBlogPost";
+@import "./Components/ContactForm";
+
+@import "./Pages/Home";
+@import "./Pages/News";
+@import "./Pages/Clients";
+@import "./Pages/AboutUs";
+@import "./Pages/Expertise";
+@import "./Pages/Contact";
+@import "./Pages/Complaints";
+
+html {
+  background-color: $wht-color1;
+  color: $blk-color1;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+
+  @media only screen and (max-width: $bp-big) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-med) {
+    font-size: 45%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 40%;
+  }
+}
+
+body {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

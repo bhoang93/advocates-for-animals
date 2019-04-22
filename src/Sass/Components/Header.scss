@@ -1,0 +1,29 @@
+.header {
+  background-blend-mode: overlay;
+  background-color: $snd-color5;
+  color: $wht-color1;
+  padding: 2rem;
+  border-bottom: 0.4rem solid $main-color6;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 1.2rem;
+  }
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    height: 13rem;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    width: 100%;
+    align-self: flex-end;
+    text-align: right;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}

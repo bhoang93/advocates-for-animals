@@ -1,0 +1,90 @@
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 26rem;
+  background-color: $snd-color5;
+  color: $wht-color1;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: $bp-small) {
+    height: 18rem;
+  }
+
+  &__legal {
+    width: 100%;
+    padding: 0 10rem;
+  }
+
+  &__sra {
+    padding-top: 3rem;
+    height: 20rem;
+    width: 20rem;
+
+    @media only screen and (max-width: $bp-med) {
+      height: 15rem;
+      width: 15rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      height: 12rem;
+      width: 12rem;
+    }
+  }
+
+  &__complaints {
+    text-decoration: none;
+    color: $wht-color1;
+    background-color: $snd-color3;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 0 3rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: $wht-color1;
+      color: $snd-color4;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__social {
+    &--icon {
+      height: 7.5rem;
+      width: auto;
+      padding: 1.5rem;
+      margin: 0.5rem;
+      background-color: $snd-color1;
+      clip-path: circle();
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: $wht-color1;
+      }
+
+      @media only screen and (max-width: $bp-small) {
+        height: 5rem;
+        padding: 1rem;
+      }
+    }
+  }
+
+  &__name {
+    font-size: 1.6rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.4rem;
+    }
+  }
+}

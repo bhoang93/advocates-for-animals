@@ -1,0 +1,51 @@
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 2rem auto;
+  border-radius: 3px;
+  background-color: rgba($wht-color1, 0.5);
+  box-shadow: 0 1rem 2rem rgba($blk-color3, 0.4);
+  padding: 1rem;
+  transition: all 0.2s ease;
+  animation: bounceIn 0.5s ease;
+
+  &:hover {
+    background-color: rgba($wht-color2, 0.8);
+  }
+
+  &__heading {
+    font-size: 2.5rem;
+  }
+
+  &__author {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+  }
+
+  &__excerpt {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+
+  &__read-more {
+    width: 12rem;
+    color: $wht-color1;
+    background-color: $snd-color6;
+    font-size: $fnt-reg;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      transform: translateY(3px);
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 30rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding-bottom: 22rem;
+  }
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-family: "Merriweather", serif;
+  word-spacing: 100vw;
+  text-align: left;
+  margin-bottom: 2rem;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-bottom: 1rem;
+  }
+}
+
+.sub-heading {
+  font-size: $fnt-big;
+  color: $main-color3;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  animation: blurIn 0.5s ease;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-bottom: 1rem;
+  }
+}
+
+.third-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  color: $main-color3;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.main-content {
+  padding: 1rem;
+}

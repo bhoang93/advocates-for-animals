@@ -1,0 +1,38 @@
+.home-nav {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%;
+
+  &__link {
+    height: 15rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0.3rem solid $snd-color6;
+    margin-bottom: 5px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $wht-color1;
+    font-size: 2.25rem;
+    font-weight: 1000;
+    text-shadow: 0 5px 3px rgba($blk-color2, 0.8);
+
+    background-color: $snd-color1;
+    background-blend-mode: multiply;
+    background-size: cover;
+
+    transition: all 0.2s ease;
+
+    @media only screen and (max-width: $bp-small) {
+      display: none;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 2rem 3rem rgba($blk-color2, 0.4);
+    }
+  }
+}

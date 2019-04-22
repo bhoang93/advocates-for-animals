@@ -1,0 +1,50 @@
+.contact-form {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  &__input-block {
+    margin-bottom: 2rem;
+  }
+
+  &__label {
+    font-size: 1.6rem;
+  }
+
+  &__input {
+    height: 2rem;
+    width: 30rem;
+  }
+
+  &__textarea {
+    height: 20rem;
+    width: 40vw;
+    padding: 1rem;
+
+    @media only screen and (max-width: $bp-big) {
+      height: 40vh;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      height: 60vh;
+    }
+  }
+
+  &__button {
+    border: none;
+    padding: 1rem 2rem;
+    color: $wht-color1;
+    background-color: $snd-color3;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: $snd-color5;
+    }
+  }
+
+  &__form-error {
+    color: $main-color5;
+    font-style: italic;
+  }
+}

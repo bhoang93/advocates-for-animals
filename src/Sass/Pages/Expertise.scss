@@ -1,0 +1,113 @@
+.expertise {
+  animation: bounceIn 1s ease;
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 1.6rem;
+
+  &--sub {
+    animation: slideInLeft 1s ease;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__back {
+    text-decoration: none;
+    color: $main-color5;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $main-color3;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__redirect {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 80vw;
+    background-color: $snd-color3;
+    margin: 1rem;
+    color: $wht-color1;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 1000;
+
+    @media only screen and (max-width: $bp-med) {
+      height: 15rem;
+      width: 90vw;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 4rem;
+    }
+
+    transition: all 0.2s ease;
+
+    & span {
+      position: relative;
+      z-index: 2;
+    }
+
+    &:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 0%;
+      background-color: $snd-color5;
+
+      transition: all 0.3s ease;
+    }
+
+    &:hover:before {
+      width: 100%;
+    }
+
+    &:hover {
+      font-size: 5.5rem;
+    }
+  }
+
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__img {
+    outline: 0.75rem solid $main-color5;
+    margin: 1.5rem;
+
+    &--1 {
+      height: 25rem;
+      float: left;
+
+      @media only screen and (max-width: $bp-small) {
+        height: 20rem;
+        float: none;
+      }
+    }
+
+    &--2 {
+      height: 30rem;
+      float: right;
+
+      @media only screen and (max-width: $bp-small) {
+        height: 25rem;
+        float: none;
+      }
+    }
+  }
+}
