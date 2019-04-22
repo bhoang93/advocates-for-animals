@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import ReactGA from "react-ga";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -26,6 +26,9 @@ class App extends Component {
   constructor() {
     super();
     this.state = { posts: [] };
+
+    ReactGA.initialize("UA-138774916-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   componentDidMount() {
