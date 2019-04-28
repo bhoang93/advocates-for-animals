@@ -34,7 +34,7 @@ class FullBlogPost extends React.Component {
           className="full-blog-post__content"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
-        <NavLink className="full-blog-post__go-back" to={"/news"}>
+        <NavLink className="full-blog-post__go-back" to={"/blog"}>
           Go Back
         </NavLink>
       </div>

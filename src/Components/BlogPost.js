@@ -18,7 +18,7 @@ const BlogPost = ({ post }) => {
         className="blog-post__excerpt"
         dangerouslySetInnerHTML={{ __html: post.excerpt }}
       />
-      <NavLink className="blog-post__read-more" to={`/news/${post.ID}`}>
+      <NavLink className="blog-post__read-more" to={`/blog/${post.ID}`}>
         Read More
       </NavLink>
     </div>

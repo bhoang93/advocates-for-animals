@@ -20,15 +20,16 @@ const aboutUsProfile = [
           again international, and public law more generally.
         </span>
         <span className="profile__text--block">
-          He is a former chair of the RSPCA (currently a trustee) and a former
-          director of Cruelty Free International and Compassion in World
-          Farming. He has written extensively about animal protection law and
-          ethics and taken part in numerous presentations, debates and media
-          appearances. He gave oral evidence to the Burns Inquiry on hunting and
-          has given oral testimony to several parliamentary committees and a
-          Royal Commission as well as holding countless meetings with ministers
-          and officials. He has been a member of European Commission and UK
-          government panels and is an experienced teacher of law.
+          He is a fellow of the Oxford Centre for Animal Ethics, a former chair
+          of the RSPCA (currently a trustee) and a former director of Cruelty
+          Free International and Compassion in World Farming. He has written
+          extensively about animal protection law and ethics and taken part in
+          numerous presentations, debates and media appearances. He gave oral
+          evidence to the Burns Inquiry on hunting and has given oral testimony
+          to several parliamentary committees and a Royal Commission as well as
+          holding countless meetings with ministers and officials. He has been a
+          member of European Commission and UK government panels and is an
+          experienced teacher of law.
         </span>
       </>
     ),

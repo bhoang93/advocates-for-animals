@@ -52,7 +52,7 @@ class App extends Component {
             />
             <Route
               exact
-              path="/news"
+              path="/blog"
               render={() => <News posts={this.state.posts} />}
             />
             <Route exact path="/about" component={AboutUs} />
@@ -85,7 +85,7 @@ class App extends Component {
 
             <Route exact path="/clients" component={Clients} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/news/:id" component={FullBlogPost} />
+            <Route exact path="/blog/:id" component={FullBlogPost} />
             <Route exact path="/complaints" component={Complaints} />
           </main>
           <Footer />
