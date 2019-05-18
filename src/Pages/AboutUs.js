@@ -105,7 +105,7 @@ class AboutUs extends React.Component {
               />
               <span className="aboutus__content--block">
                 <strong>Advocates for Animals</strong> is the first UK law firm
-                dedicated to animal protection. Set up by{" "}
+                dedicated to animal protection. It is a not for profit set up by{" "}
                 <strong>David Thomas</strong> and <strong>Edie Bowles</strong>,
                 two solicitors with vast combined experience in animal
                 protection law, the firm is supported by and works closely with

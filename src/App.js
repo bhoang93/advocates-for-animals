@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import ReactGA from "react-ga";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-
+import { fetch } from "whatwg-fetch";
+import "promise-polyfill/src/polyfill";
 import Home from "./Pages/Home";
 import News from "./Pages/News";
 import AboutUs from "./Pages/AboutUs";

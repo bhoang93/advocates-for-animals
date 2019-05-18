@@ -1,5 +1,7 @@
 import React from "react";
 import he from "he";
+import { fetch } from "whatwg-fetch";
+import "promise-polyfill/src/polyfill";
 
 import { NavLink } from "react-router-dom";
 
