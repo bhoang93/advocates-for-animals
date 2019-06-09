@@ -7,6 +7,7 @@ import "promise-polyfill/src/polyfill";
 import Home from "./Pages/Home";
 import News from "./Pages/News";
 import AboutUs from "./Pages/AboutUs";
+import Donate from "./Pages/Donate";
 
 import Expertise from "./Pages/Expertise";
 import Freedom from "./Components/Expertise/Freedom";
@@ -58,6 +59,7 @@ class App extends Component {
             />
             <Route exact path="/about" component={AboutUs} />
             <Route exact path="/expertise" component={Expertise} />
+            <Route exact path="/donate" component={Donate} />
             <Route
               exact
               path="/expertise/freedom-of-information"
