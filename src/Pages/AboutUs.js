@@ -12,12 +12,12 @@ const aboutUsProfile = [
     text: (
       <>
         <span className="profile__text--block">
-          David Thomas is a solicitor and part-time judge. He has acted for
-          nearly all the major animal protection organisations in the UK (and
-          beyond) and is highly experienced in EU and international animal law,
-          including trade law. He has also acted extensively in human rights
-          cases (which can be relevant to animal protection law), much of it
-          again international, and public law more generally.
+          David is a solicitor and part-time judge. He has acted for nearly all
+          the major animal protection organisations in the UK (and beyond) and
+          is highly experienced in EU and international animal law, including
+          trade law. He has also acted extensively in human rights cases (which
+          can be relevant to animal protection law), much of it again
+          international, and public law more generally.
         </span>
         <span className="profile__text--block">
           He is a fellow of the Oxford Centre for Animal Ethics, a former chair
@@ -40,13 +40,13 @@ const aboutUsProfile = [
     text: (
       <>
         <span className="profile__text--block">
-          Edie Bowles is a solicitor now specialising in animal protection law.
-          Like David, she is a legal consultant to Cruelty Free International
-          and she advises several other animal protection organisations on a
-          range of issues, including the new animal establishment licensing
-          regulations, an investigation into pig farming and greyhound racing.
-          As trustee of A-LAW, she manages the vibrant student group and often
-          speaks on animal protection issues.
+          Edie is a solicitor now specialising in animal protection law. Like
+          David, she is a legal consultant to Cruelty Free International and she
+          advises several other animal protection organisations on a range of
+          issues, including the new animal establishment licensing regulations,
+          an investigation into pig farming and greyhound racing. As trustee of
+          A-LAW, she manages the vibrant student group and often speaks on
+          animal protection issues.
         </span>
         <span className="profile__text--block">
           Prior to advising on animal protection law, Edie was an intellectual
