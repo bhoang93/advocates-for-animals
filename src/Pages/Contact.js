@@ -10,7 +10,7 @@ const Contact = () => {
       <a className="contact__link" href="tel:07838926678">
         <div className="contact__block">
           <img src={phone} className="contact__block--img" alt="phone" />
-          <p className="contact__link--text">07838926678</p>
+          <p className="contact__link--text"> (+44) 07838926678</p>
         </div>
       </a>
       <a className="contact__link" href="mailto:info@advocates-for-animals.com">

@@ -97,6 +97,51 @@ class AboutUs extends React.Component {
         <h2 className="sub-heading">About Us</h2>
         {this.state.currentProfile === null && (
           <>
+            <div className="aboutus__mission-statement">
+              <h3 className="aboutus__mission-statement--heading">
+                Mission statement:
+              </h3>
+
+              <p className="aboutus__mission-statement--body">
+                To help clients use the law creatively to protect animals and to
+                hold to account not only people who break it but also
+                governments and other bodies charged with enforcing it
+              </p>
+
+              <h3 className="aboutus__mission-statement--heading">Vision</h3>
+
+              <p className="aboutus__mission-statement--body">
+                To live in a world where animals are protected by
+                philosophically consistent laws which are regulated and enforced
+                effectively
+              </p>
+
+              <h3 className="aboutus__mission-statement--heading">Values</h3>
+              <ul className="aboutus__mission-statement--list">
+                <li>
+                  Animal <span>protection</span>
+                </li>
+
+                <li>
+                  <span>Creative</span> use of the law
+                </li>
+
+                <li>
+                  {" "}
+                  Providing legal <span>education</span> and awareness through
+                  events and media platforms
+                </li>
+
+                <li>
+                  <span>Passion</span> for animal justice
+                </li>
+
+                <li>
+                  <span>Compassion</span> and <span>understanding</span> towards
+                  everyone{" "}
+                </li>
+              </ul>
+            </div>
             <div className="aboutus__content">
               <img
                 className="aboutus__content--image"

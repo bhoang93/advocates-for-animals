@@ -4,6 +4,32 @@
   align-items: center;
   animation: slideInLeft 0.8s ease;
 
+  &__mission-statement {
+    width: 70%;
+    text-align: left;
+
+    &--heading {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      color: $main-color4;
+    }
+
+    &--body {
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &--list {
+      margin-left: 1.6rem;
+      & li {
+        font-size: 1.6rem;
+        & span {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
   &__goBack {
     animation: fadeIn 3s ease;
     color: $main-color4;
