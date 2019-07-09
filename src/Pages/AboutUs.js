@@ -31,6 +31,29 @@ const aboutUsProfile = [
           member of European Commission and UK government panels and is an
           experienced teacher of law.
         </span>
+
+        <h3 className="third-heading">
+          How did you get into animal protection?
+        </h3>
+        <span className="profile__text--block">
+          I have had an interest since a young age. I ran RSPCA Cardiff Dog's
+          Home as an 18 year old volunteer before going to uni. I have always
+          believed that one assesses injustice by its effect on the victim, not
+          on the victim's identity, Sadly humankind's inhumanity to humankind,
+          terrible though it is, is dwarfed by humanity's inhumanity to other
+          animals. Society should fight injustice wherever it finds it and I
+          have also done a lot of human rights legal work.
+        </span>
+        <h3 className="third-heading"> Why do you care about animal law?</h3>
+        <span className="profile__text--block">
+          I believe that the law - working in close harmony with science,
+          investigative skills, ethical argument, campaigning and lobbying - can
+          make a huge difference to the welfare of animals, through creative
+          deployment at each stage of the campaigning process. Ultimately,
+          though education has a vital role, the best protection is through
+          well-drawn, philosophically consistent, properly interpreted and
+          rigorously enforced legislation.
+        </span>
       </>
     ),
     image: davidthomas
@@ -52,6 +75,25 @@ const aboutUsProfile = [
           Prior to advising on animal protection law, Edie was an intellectual
           property lawyer in private practice.
         </span>
+        <h3 className="third-heading">
+          How did you get into animal protection?
+        </h3>
+        <span className="profile__text--block">
+          For as long I can remember I have felt empathy towards animals and
+          recognised their vulnerability at the hands of human interest, whether
+          commercial or simply sadistic. This awareness has led to me carving a
+          career aimed at ensuring animals are given the protections they are
+          entitled to under the law.
+        </span>
+        <h3 className="third-heading"> Why do you care about animal law?</h3>
+        <span className="profile__text--block">
+          Despite all the incredible attributes animals possess and their
+          sentience, they are extremely vulnerable in our society, it is
+          therefore essential that a framework is in place to prevent certain
+          treatment. You do not have to be an animal lover or an activist in
+          this area to recognise that animals deserve protection under the law
+          and that those laws need to be enforced.
+        </span>
       </>
     ),
     image: ediebowles
@@ -68,6 +110,26 @@ const aboutUsProfile = [
           and environmental justice. Enthusiastic and personable, she is a
           tireless advocate for a more compassionate world. Vanessa joins the
           team as an Operational Support Officer.
+        </span>
+        <h3 className="third-heading">
+          How did you get into animal protection?
+        </h3>
+        <span className="profile__text--block">
+          My mission in life is to seek justice for animals and reduce as much
+          suffering as possible. My passion for this cause has led me to
+          volunteer for a number of animal charities and establish an
+          organisation that supports the animal protection industry. As a
+          dedicated vegan, I also try to be an ambassador for animal protection
+          wherever I can. When I learned of Advocates for Animals’ mission:
+          ‘making full use of the law to protect animals’ I was eager to get
+          involved.
+        </span>
+        <h3 className="third-heading"> Why do you care about animal law?</h3>
+        <span className="profile__text--block">
+          Without a voice to speak up and protest their treatment, animals are
+          among the most abused beings on the planet. If we ensure existing laws
+          and regulations are strictly enforced, we can significantly improve
+          animal protection.
         </span>
       </>
     ),
@@ -98,14 +160,12 @@ class AboutUs extends React.Component {
         {this.state.currentProfile === null && (
           <>
             <div className="aboutus__mission-statement">
-              <h3 className="aboutus__mission-statement--heading">
-                Mission statement:
-              </h3>
+              <h3 className="aboutus__mission-statement--heading">Mission</h3>
 
               <p className="aboutus__mission-statement--body">
-                To help clients use the law creatively to protect animals and to
-                hold to account not only people who break it but also
-                governments and other bodies charged with enforcing it
+                To help clients hold to account not only people who break the
+                law but also governments and other bodies charged with enforcing
+                it
               </p>
 
               <h3 className="aboutus__mission-statement--heading">Vision</h3>
