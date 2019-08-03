@@ -63,13 +63,12 @@ const aboutUsProfile = [
     text: (
       <>
         <span className="profile__text--block">
-          Edie is a solicitor now specialising in animal protection law. Like
-          David, she is a legal consultant to Cruelty Free International and she
-          advises several other animal protection organisations on a range of
-          issues, including the new animal establishment licensing regulations,
-          an investigation into pig farming and greyhound racing. As trustee of
-          A-LAW, she manages the vibrant student group and often speaks on
-          animal protection issues.
+          Edie is a solicitor now specialising in animal protection law. She has
+          advised many animal protection organisations and individuals on a
+          range of issues, including the new animal establishment licensing
+          regulations, an investigation into pig farming and greyhound racing.
+          As trustee of A-LAW, she manages the vibrant student group and often
+          speaks on animal protection issues.
         </span>
         <span className="profile__text--block">
           Prior to advising on animal protection law, Edie was an intellectual

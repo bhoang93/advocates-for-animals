@@ -23,6 +23,7 @@ import Complaints from "./Pages/Complaints";
 import FullBlogPost from "./Components/FullBlogPost";
 
 import { BrowserRouter, Route } from "react-router-dom";
+import { pages } from "./Constants/links";
 
 class App extends Component {
   constructor() {
@@ -39,6 +40,13 @@ class App extends Component {
     )
       .then(resp => resp.json())
       .then(data => this.setState({ posts: data.posts }));
+
+    fetch(
+      "https://public-api.wordpress.com/rest/v1.1/sites/advocates-for-animals.com/"
+    )
+      .then(resp => resp.json())
+      .then(data => console.log(data))
+      .catch(err => console.log(err));
   }
 
   render() {
