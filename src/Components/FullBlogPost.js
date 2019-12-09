@@ -9,9 +9,7 @@ class FullBlogPost extends React.Component {
   }
   componentDidMount() {
     fetch(
-      `https://public-api.wordpress.com/rest/v1.1/sites/advocates-for-animals.com/posts/${
-        this.props.match.params.id
-      }`
+      `https://public-api.wordpress.com/rest/v1.1/sites/advocates-for-animals.com/posts/?number=999`
     )
       .then(resp => resp.json())
       .then(data => this.setState({ post: data }));
