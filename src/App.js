@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-
+import ReactGA from "react-ga";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-
+import { fetch } from "whatwg-fetch";
+import "promise-polyfill/src/polyfill";
 import Home from "./Pages/Home";
 import News from "./Pages/News";
 import AboutUs from "./Pages/AboutUs";
+import Donate from "./Pages/Donate";
 
 import Expertise from "./Pages/Expertise";
 import Freedom from "./Components/Expertise/Freedom";
@@ -21,16 +23,20 @@ import Complaints from "./Pages/Complaints";
 import FullBlogPost from "./Components/FullBlogPost";
 
 import { BrowserRouter, Route } from "react-router-dom";
+import { pages } from "./Constants/links";
 
 class App extends Component {
   constructor() {
     super();
     this.state = { posts: [] };
+
+    ReactGA.initialize("UA-138774916-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   componentDidMount() {
     fetch(
-      "https://public-api.wordpress.com/rest/v1.1/sites/advocates-for-animals.com/posts/"
+      "https://public-api.wordpress.com/rest/v1.1/sites/advocates-for-animals.com/posts/?number=100"
     )
       .then(resp => resp.json())
       .then(data => this.setState({ posts: data.posts }));
@@ -49,11 +55,12 @@ class App extends Component {
             />
             <Route
               exact
-              path="/news"
+              path="/blog"
               render={() => <News posts={this.state.posts} />}
             />
             <Route exact path="/about" component={AboutUs} />
             <Route exact path="/expertise" component={Expertise} />
+            <Route exact path="/donate" component={Donate} />
             <Route
               exact
               path="/expertise/freedom-of-information"
@@ -82,7 +89,7 @@ class App extends Component {
 
             <Route exact path="/clients" component={Clients} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/news/:id" component={FullBlogPost} />
+            <Route exact path="/blog/:id" component={FullBlogPost} />
             <Route exact path="/complaints" component={Complaints} />
           </main>
           <Footer />

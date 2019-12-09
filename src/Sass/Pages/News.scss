@@ -18,3 +18,19 @@
     width: 90%;
   }
 }
+
+.news-blog-text {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+}
+
+.news-blog-link {
+  color: $snd-color3;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: $snd-color6;
+  }
+}

@@ -6,7 +6,8 @@ const pages = [
   { label: "About Us", link: "about" },
   { label: "Areas of Expertise", link: "expertise" },
   { label: "What Clients Say", link: "clients" },
-  { label: "News", link: "news" },
+  { label: "Blog", link: "blog" },
+  { label: "Donate", link: "donate" },
   { label: "Contact Us", link: "contact" }
 ];
 

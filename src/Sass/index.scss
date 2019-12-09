@@ -20,6 +20,7 @@
 @import "./Pages/Expertise";
 @import "./Pages/Contact";
 @import "./Pages/Complaints";
+@import "./Pages/Donate";
 
 html {
   background-color: $wht-color1;
@@ -43,6 +44,13 @@ html {
 
 body {
   height: 100%;
+}
+
+img {
+  @media only screen and (max-width: $bp-small) {
+    max-width: 80vw;
+    height: auto;
+  }
 }
 
 *,

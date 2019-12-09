@@ -1,0 +1,12 @@
+.donate {
+  animation: slideInLeft 1s ease;
+  &__content {
+    font-size: 1.4rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  &__button {
+    height: 100px;
+  }
+}

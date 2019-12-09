@@ -9,6 +9,9 @@ const Header = () => {
       <div className="heading">
         <img className="heading__logo" src={logo} alt="elk" />
         <h1 className="main-heading">Advocates for Animals</h1>
+        <h2 className="heading__subtitle">
+          Making full use of the law to protect animals
+        </h2>
       </div>
       <Navigation />
     </header>

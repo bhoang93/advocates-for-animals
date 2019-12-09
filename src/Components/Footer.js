@@ -5,6 +5,8 @@ import SocialMediaIcon from "../Components/SocialMediaIcon";
 
 import twitter from "../Images/SocialMediaIcons/twitter.svg";
 import instagram from "../Images/SocialMediaIcons/instagram.svg";
+import facebook from "../Images/SocialMediaIcons/facebook2.svg";
+import linkedin from "../Images/SocialMediaIcons/linkedin.svg";
 
 const Footer = () => {
   return (
@@ -32,6 +34,16 @@ const Footer = () => {
           link="https://www.instagram.com/animallawyersuk/"
           src={instagram}
           alt="Instagram"
+        />
+        <SocialMediaIcon
+          link="https://www.facebook.com/animallawyersuk/"
+          src={facebook}
+          alt="Facebook"
+        />
+        <SocialMediaIcon
+          link="https://www.linkedin.com/company/animaladvocates/"
+          src={linkedin}
+          alt="LinkedIn"
         />
       </div>
       <div className="footer__name">Advocates for Animals Ltd</div>
