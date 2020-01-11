@@ -36,6 +36,7 @@ class FullBlogPost extends React.Component {
           className="full-blog-post__content"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
+        <p className="full-blog-post__disclaimer">We are grateful to everyone who contributes to the Advocates for Animals blog. Blogs should not be taken as legal advice nor do they necessarily reflect the views of the firm</p>
         <NavLink className="full-blog-post__go-back" to={"/blog"}>
           Go Back
         </NavLink>
