@@ -4,7 +4,7 @@ import Profile from "../Components/Profile";
 import davidthomas from "../Images/AboutUs/David_Thomas.jpg";
 import ediebowles from "../Images/AboutUs/Edie_Bowles.JPG";
 import vanessa from "../Images/AboutUs/Vanessa_Johansson.jpeg";
-import alice from "../Images/AboutUs/Alice_Collinson.jpg"
+import alice from "../Images/AboutUs/Alice_Collinson.jpg";
 import aboutusimg from "../Images/Animals/animal1.jpg";
 
 const aboutUsProfile = [
@@ -64,10 +64,15 @@ const aboutUsProfile = [
     text: (
       <>
         <span className="profile__text--block">
-Edie is a solicitor now specialising in animal protection law. She has advised many animal protection organisations and individuals on a range of issues, including the new animal establishment licensing regulations, an investigation into pig farming and greyhound racing. She is a trustee of A-law, where she set up and managed the student group. She often speaks on animal protection issues.
-        </span>
-        <span className="profile__text--block">
-Prior to advising on animal protection law, Edie was an intellectual property lawyer in private practice.
+          Edie is a solicitor specialising in animal protection law. She has
+          advised many animal protection organisations and individuals on a wide
+          range of issues, including all aspects of the Animal Welfare Act and
+          regulations made under it, the Zoo Licensing Act, Animals (Scientific
+          Procedures) Act and more. She is a trustee of The Humane League and
+          the UK Centre for Animal Law, where she set up and managed the student
+          group. She often speaks on animal protection issues and has done so in
+          the UK Parliament, the French Senat and the East African Legislative
+          Assembly.
         </span>
         <h3 className="third-heading">
           How did you get into animal protection?
@@ -134,23 +139,39 @@ Prior to advising on animal protection law, Edie was an intellectual property la
     text: (
       <>
         <span className="profile__text--block">
-          Alice is a solicitor with a particular interest in international wildlife protection law.
+          Alice is a solicitor with a particular interest in international
+          wildlife protection law.
         </span>
         <span className="profile__text--block">
-          She has worked as a legal consultant with many leading animal welfare and conservation organisations in the UK and abroad, following an international Animal Law masters (LL.M) from Lewis and Clark Law School in the U.S, and 6 years as a civil litigation lawyer in London.
+          She has worked as a legal consultant with many leading animal welfare
+          and conservation organisations in the UK and abroad, following an
+          international Animal Law masters (LL.M) from Lewis and Clark Law
+          School in the U.S, and 6 years as a civil litigation lawyer in London.
         </span>
         <span className="profile__text--block">
-          She provides legal training on captive animal legislation as a trustee with Freedom for Animals, supports the UK Centre for Animal Law student team, and sits on the British Veterinary Association’s Ethics and Welfare Advisory Panel.
+          She provides legal training on captive animal legislation as a trustee
+          with Freedom for Animals, supports the UK Centre for Animal Law
+          student team, and sits on the British Veterinary Association’s Ethics
+          and Welfare Advisory Panel.
         </span>
         <h3 className="third-heading">
           How did you get into animal protection?
         </h3>
         <span className="profile__text--block">
-          A passion for wildlife has drawn me to a number volunteer projects from a young age; to include tracking endangered wild dogs in South Africa, caring for elephants released from the tourist industry in Thailand, and rehabilitating rescued seals in Cornwall. Pursuing the Animal Law masters has enabled me to focus my legal skills entirely on animal protection.
+          A passion for wildlife has drawn me to a number volunteer projects
+          from a young age; to include tracking endangered wild dogs in South
+          Africa, caring for elephants released from the tourist industry in
+          Thailand, and rehabilitating rescued seals in Cornwall. Pursuing the
+          Animal Law masters has enabled me to focus my legal skills entirely on
+          animal protection.
         </span>
         <h3 className="third-heading"> Why do you care about animal law?</h3>
         <span className="profile__text--block">
-          Animals are primarily property in the eyes of the law, with minimal protections across the many industries that impact billions of individual sentient beings. At the very least, we should effectively enforce existing laws to protect animals internationally, and challenge the status quo to create change and reduce animal suffering.
+          Animals are primarily property in the eyes of the law, with minimal
+          protections across the many industries that impact billions of
+          individual sentient beings. At the very least, we should effectively
+          enforce existing laws to protect animals internationally, and
+          challenge the status quo to create change and reduce animal suffering.
         </span>
       </>
     ),
