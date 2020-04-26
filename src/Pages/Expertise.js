@@ -12,7 +12,8 @@ const areas = [
     link: "/expertise/undercover-investigations",
     text: "Undercover investigations"
   },
-  { link: "/expertise/animal-protection-law", text: "Animal Protection Law" }
+  { link: "/expertise/animal-protection-law", text: "Animal Protection Law" },
+  { link: "/expertise/private-prosecutions", text: "Private Prosecutions" }
 ];
 
 const Expertise = () => {

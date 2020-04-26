@@ -18,6 +18,20 @@
     color: darkgrey;
   }
 
+  &__share {
+    margin-bottom: 20px;
+
+    & a:not(:last-of-type) {
+      margin-right: 10px;
+    }
+
+    & h3 {
+      color: #0379c0;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+  }
+
   @media only screen and (max-width: $bp-small) {
     width: 80vw;
   }

@@ -53,6 +53,26 @@ const clientQuotes = [
     quote:
       "Alice Collinson brings an in-depth understanding and highly professional approach to her analyses of wildlife law and international legal process. She is also able to fulfil complex requests in a timely, coherent and cost-effective manner, and her reporting is outstanding. She is our first port-of-call when it comes to making sense of international wildlife legislation.",
     attr: "- Born Free"
+  },
+  {
+    quote:
+      "Save The Asian Elephants fights hard every day for the protection and preservation of the critically endangered Asian elephant, so grievously abused in unethical tourism and other exploitative practices. Of necessity we engage in complex issues which often call for a clear focus and understanding of the law and legal procedures. David Thomas and Edie Bowles and their team at Advocates for Animals have provided STAE with specialist and timely advice of a high standard on several occasions. We are very pleased to be working with them.",
+    attr: "- Save The Asian Elephants"
+  },
+  {
+    quote:
+      "Edie and the team at Advocates for Animals went above and beyond to help us save over 80 pigs from a court destruction order. They overturned this order with their legal expertise. They are an amazing team of legal experts, professional, supportive and 100% dedicated.",
+    attr: "- Beneath The Wood Sanctuary"
+  },
+  {
+    quote:
+      "Advocates for Animals are professional and thorough, enabling us to mitigate risks and ensure we can run effective campaigns. They’ve given us legal advice at little notice that has been crucial for us to be nimble and respond to changing events when they unfold. Their work is outstanding and always turned around in a timely manner. We highly recommend Edie and David for anyone in the animal protection movement that wants reliable, easy to understand details on any work they need to assess for legal issues.",
+    attr: "- The Humane League UK"
+  },
+  {
+    quote:
+      "The Donkey Sanctuary has drawn on the legal expertise of Advocates for Animals for over two years now. It would be hard to overstate the amazing support they have provided to us in respect of some of our key campaigns – from poring over our campaign literature from a legal perspective, to liaising with regional legislative bodies overseas, briefing and instructing lawyers in overseas countries on our behalf and generally making the complexities of legal possibilities and consequences comprehensible and also affordable. They are now an integral part of our campaign planning and thinkingThey are approachable, engaged and passionate about the issues. We know that we will always get expert advice and insight from them, and they will always pull out all the stops if that is needed quickly.More than anything, they care about what we are doing and share our objectives and determination to secure improvements for animal welfare through legal processes and mechanisms. We can’t recommend them highly enough.",
+    attr: "- The Donkey Sanctuary"
   }
 ];
 

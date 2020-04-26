@@ -15,6 +15,7 @@ import Judicial from "./Components/Expertise/Judicial";
 import LevelPlayingField from "./Components/Expertise/LevelPlayingField";
 import Undercover from "./Components/Expertise/Undercover";
 import AnimalProtectionLaw from "./Components/Expertise/AnimalProtectionLaw";
+import PrivateProsecutions from "./Components/Expertise/PrivateProsecutions";
 
 import Clients from "./Pages/Clients";
 import Contact from "./Pages/Contact";
@@ -85,6 +86,11 @@ class App extends Component {
               exact
               path="/expertise/animal-protection-law"
               component={AnimalProtectionLaw}
+            />
+            <Route
+              exact
+              path="/expertise/private-prosecutions"
+              component={PrivateProsecutions}
             />
 
             <Route exact path="/clients" component={Clients} />
