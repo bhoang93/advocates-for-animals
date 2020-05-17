@@ -288,6 +288,11 @@ class AboutUs extends React.Component {
                 science, lobbying, social and traditional media – to make a huge
                 difference to the lives of animals.
               </span>
+              <span className="aboutus__content--block">
+                Advocates for Animals will not act against an animal group or an
+                animal activist unless the matter involves an animal protection
+                issue.
+              </span>
             </div>
             <h2 className="sub-heading">Who Are We?</h2>
             <div className="aboutus__redirect-container">
