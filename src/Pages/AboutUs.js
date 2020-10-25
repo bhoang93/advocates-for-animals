@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "../Components/Profile";
 
 import davidthomas from "../Images/AboutUs/David_Thomas.jpg";
-import ediebowles from "../Images/AboutUs/Edie_Bowles.JPG";
+import ediebowles from "../Images/AboutUs/Edie_Bowles.jpg";
 import vanessa from "../Images/AboutUs/Vanessa_Johansson.jpeg";
 import alice from "../Images/AboutUs/Alice_Collinson.jpg";
 import aboutusimg from "../Images/Animals/animal1.jpg";
@@ -255,9 +255,7 @@ class AboutUs extends React.Component {
                 dedicated to animal protection. It is a not for profit set up by{" "}
                 <strong>David Thomas</strong> and <strong>Edie Bowles</strong>,
                 two solicitors with vast combined experience in animal
-                protection law, the firm is supported by and works closely with
-                <strong>the UK Centre of Animal Law (A-LAW):</strong> Edie is a
-                trustee and David a former trustee.
+                protection law.
               </span>
               <span className="aboutus__content--block">
                 Before 1822 in this country – as in many countries around the
